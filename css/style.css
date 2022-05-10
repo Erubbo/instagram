@@ -87,3 +87,42 @@ body{
 .not-account{
     color: #a0a0a0;
 }
+
+.link-blue{
+    color: #0095f6;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.get-app{
+    font-size: 1.286rem;
+    font-weight: bold;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem o;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('../img/apple-button.png');
+}
+.app-download:nth-child(2){
+    background-image: url('../img/googleplay-button.png');
+}
